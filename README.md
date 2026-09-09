@@ -1,10 +1,4 @@
----
-
-### **Step 4: Push to GitHub from Google Colab**
-
-Run this cell in Google Colab. Fill in your GitHub username, email, repository name, and the Personal Access Token you created in Step 1:
-
-```python
+python
 import os
 
 # --- Fill in your GitHub credentials ---
