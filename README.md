@@ -1,15 +1,15 @@
 python
 import os
 
-# --- Fill in your GitHub credentials ---
-GITHUB_USERNAME = "YOUR_GITHUB_USERNAME"
-GITHUB_EMAIL = "YOUR_GITHUB_EMAIL"
-GITHUB_TOKEN = "YOUR_COPIED_GHP_TOKEN"
-REPO_NAME = "uac-system-capacity-analytics"
+# Fill in your GitHub credentials 
+GITHUB_USERNAME = adityasingh121608-cell
+GITHUB_EMAIL = adityasingh121608@gmail.com
+GITHUB_TOKEN = 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
+REPO_NAME = uac-system-capacity-analytics
 
 # Configure Git user
-!git config --global user.name "{GITHUB_USERNAME}"
-!git config --global user.email "{GITHUB_EMAIL}"
+!git config --global user.name "{adityasingh121608-cell}"
+!git config --global user.email "{adityasingh121608#gmail.com}"
 
 # Initialize local git repository
 !git init
@@ -18,7 +18,7 @@ REPO_NAME = "uac-system-capacity-analytics"
 !git remote remove origin 2>/dev/null
 
 # Set remote origin using your secure PAT
-remote_url = f"https://{GITHUB_USERNAME}:{GITHUB_TOKEN}@github.com/{GITHUB_USERNAME}/{REPO_NAME}.git"
+remote_url = f"https://{adityasingh121608-cell}:{GITHUB_TOKEN}@github.com/{adityasingh121608-cell}/{uac-system-capacity-analytics}.git"
 !git remote add origin {remote_url}
 
 # Stage required project files
@@ -31,4 +31,4 @@ remote_url = f"https://{GITHUB_USERNAME}:{GITHUB_TOKEN}@github.com/{GITHUB_USERN
 !git branch -M main
 !git push -u origin main --force
 
-print(f"\n🚀 Successfully pushed to: https://github.com/{GITHUB_USERNAME}/{REPO_NAME}")
+print(f"\n🚀 Successfully pushed to: https://github.com/{adityasingh121608-cell}/{uac-system-capacity-analytics}")
